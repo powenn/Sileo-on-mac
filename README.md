@@ -17,7 +17,7 @@ Now telling you the basic to install sileo on mac
 
 ### Optional
 
-If you want to use homebrew and gnu-tar just keep going ,if not just skip to first step 
+If you want to use `homebrew` and `gnu-tar` just keep going ,if not just skip to first step 
 
 install `homebrew`
 ```
