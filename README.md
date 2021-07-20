@@ -33,13 +33,15 @@ First,you need install procursus on your mac
 
 There are two way to install,depending on have you install `homebrew` and `gnu-tar` from homebrew  
 
-The way without `homebrew`
+#### The way without `homebrew`
 
 replace <strap> with the path to the bootstrap you downloaded and run the command: 
 ```
 zstd -d <strap>.zst && sudo tar --preserve-permissions -xkf <strap> -C /
 ```
-if you have `gnu-tar` from `homebrew` you can shorten the command to
+#### if you have `gnu-tar` from `homebrew` 
+
+you can shorten the command 
 ```
 sudo gtar --preserve-permissions -xkf <strap>.tar.zst -C /
 ```
