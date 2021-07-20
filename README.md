@@ -44,6 +44,7 @@ sudo apt update
 sudo apt upgrade
 ```
 then you can experience it
+btw this is my repo [powen00hsiao repo](https://powenn.github.io/powen00hsiao/)
 
 [1]: https://github.com/powenn/Sileo-on-mac-/blob/main/screenshot/01.png
 [2]: https://github.com/powenn/Sileo-on-mac-/blob/main/screenshot/02.png
