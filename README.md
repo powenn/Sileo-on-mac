@@ -2,6 +2,13 @@
 
 I will show you how I install sileo on mac ,I just gather and unify these information in [Hayden's sever](https://discord.com/invite/qgqhUJsP) ,you can get more advanced tutorial on the sever .
 
+<p align="center">
+
+    <a href="#"><img src="screenshot/01.png" alt="screenshot" width="650"></a>
+    
+</p>
+
+
 ## Things you need
 - [Homebrew](https://brew.sh/)(optional)
 - [Sileo for Mac deb file ](https://github.com/powenn/Sileo-on-mac-/tree/main/sileo%20deb%20files) (if you using M1 mac choose arm version,intel choose amd)
