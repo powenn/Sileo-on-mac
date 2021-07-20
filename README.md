@@ -4,8 +4,8 @@ I will show you how I install sileo on mac ,I just gather and unify these inform
 
 ## Things you need
 - [Homebrew](https://brew.sh/)(optional)
-- [Sileo for Mac deb file ](    ) (if you using M1 mac choose arm version,intel choose amd)
-- [procursus ](      )(support for big sur,catlina,mojave )
+- [Sileo for Mac deb file ](https://github.com/powenn/Sileo-on-mac-/tree/main/sileo%20deb%20files) (if you using M1 mac choose arm version,intel choose amd)
+- [procursus ](https://github.com/powenn/Sileo-on-mac-/tree/main/package)(support for big sur,catlina,mojave )
 
 ## Getting  Start
 
