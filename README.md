@@ -13,10 +13,13 @@ I will show you how I install sileo on mac ,I just gather and unify these inform
 ## Getting  Start
 
 Now telling you the basic to install sileo on mac
+
 First,you need install procursus on your mac 
+
 There are two way to install,depending on have you install homebrew and `gnu-tar` from homebrew  
 
 The way without homebrew
+
 replace <strap> with the path to the bootstrap you downloaded and run the command: 
 ```
 zstd -d <strap>.zst && sudo tar --preserve-permissions -xkf <strap> -C /
@@ -38,12 +41,14 @@ Then you can install sileo through
 sudo dpkg -i <path to Sileo deb>
 ```
 you will see sileo in your app folder
+
 before you open it 
 ```
 sudo apt update
 sudo apt upgrade
 ```
 then you can experience it
+
 btw this is my repo [powen00hsiao repo](https://powenn.github.io/powen00hsiao/)
 
 [1]: https://github.com/powenn/Sileo-on-mac-/blob/main/screenshot/01.png
