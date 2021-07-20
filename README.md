@@ -7,6 +7,7 @@ I will show you how I install sileo on mac ,I just gather and unify these inform
 
 ## Things you need
 - [Homebrew](https://brew.sh/)(optional)
+- [gnu-tar from homebrew](https://formulae.brew.sh/formula/gnu-tar)(optional)
 - [Sileo for Mac deb file ](https://github.com/powenn/Sileo-on-mac-/tree/main/sileo%20deb%20files) (if you using M1 mac choose arm version,intel choose amd)
 - [procursus ](https://github.com/powenn/Sileo-on-mac-/tree/main/package)(support for big sur,catlina,mojave )
 
@@ -14,27 +15,41 @@ I will show you how I install sileo on mac ,I just gather and unify these inform
 
 Now telling you the basic to install sileo on mac
 
+### Optional
+
+If you want to use homebrew and gnu-tar just keep going ,if not just skip to first step 
+
+install `homebrew`
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+then install `gnu-tar`
+```
+brew install gnu-tar
+```
+### First step
+
 First,you need install procursus on your mac 
 
-There are two way to install,depending on have you install homebrew and `gnu-tar` from homebrew  
+There are two way to install,depending on have you install `homebrew` and `gnu-tar` from homebrew  
 
-The way without homebrew
+The way without `homebrew`
 
 replace <strap> with the path to the bootstrap you downloaded and run the command: 
 ```
 zstd -d <strap>.zst && sudo tar --preserve-permissions -xkf <strap> -C /
 ```
-if you have 'gnu-tar' from homebrew you can shorten the command to
+if you have `gnu-tar` from `homebrew` you can shorten the command to
 ```
 sudo gtar --preserve-permissions -xkf <strap>.tar.zst -C /
 ```
-then add  '/opt/procursus/bin' to the start of your PATH in your shell config file
+then add  `/opt/procursus/bin` to the start of your PATH in your shell config file
 ```
 nano ~/.zprofile
 ```
 put `PATH="/opt/procursus/bin:$PATH"` on the top 
 ```
-`PATH="/opt/procursus/bin:$PATH"`
+PATH="/opt/procursus/bin:$PATH"
 ```
 Then you can install sileo through 
 ```
