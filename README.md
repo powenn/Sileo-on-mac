@@ -1,5 +1,7 @@
 # Sileo on Mac
 
+### Update:For some reason, I can't provide any file,check out them on discord server 
+
 I will show you how I install sileo on mac ,I just gather and unify these information in [Hayden's sever](https://discord.com/invite/qgqhUJsP) ,you can get more advanced tutorial on the sever .
 
 ![Screenshot of Sileo on Mac][1]
